@@ -1,0 +1,15 @@
+{
+  "name": "web2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "buat latihan npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Razif",
+  "license": "ISC"
+}

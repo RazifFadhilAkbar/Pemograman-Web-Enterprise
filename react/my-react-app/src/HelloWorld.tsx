@@ -1,11 +1,17 @@
 
-function HelloWorld() {
+ type PropHello = {
+    name : string
+ }
+
+
+export default function HelloWorld ({name}: PropHello) {
+
+
     return (
         <>
-            <h1>Hello Folks!</h1>
-            <h2>Welcome to My App</h2>
+            <h1>Hai {name}!</h1>
+            <h2>Belajar React Component</h2>
         </>
-    )
+    );
 }
 
-export default HelloWorld
